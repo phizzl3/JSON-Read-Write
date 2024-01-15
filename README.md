@@ -1,3 +1,4 @@
 # JSON-Loader
 
- A very simple function/snippet to load and return JSON data from a file.
+A simple function/snippet to load and return JSON  
+data so I don't have to type it over and over again.
