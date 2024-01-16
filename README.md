@@ -1,12 +1,13 @@
 # JSON-Loader
 
-A simple function/snippet to load and return JSON  
-data so I don't have to type it over and over again.
+A simple function/snippet to read and write JSON data.
 
 ## Usage
 
 ```python
-from json_loader import load_json_data
+from json_read_write import load_json_data, write_json_file
 
 python_dictionary = load_json_data(JSON_File_Path)
+
+write_json_file(JSON_File_Path, python_dictionary)
 ```
