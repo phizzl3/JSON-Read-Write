@@ -1,4 +1,5 @@
 # JSON-Read-Write
+
 A simple function/snippet to read and write JSON data.
 
 ## Usage
