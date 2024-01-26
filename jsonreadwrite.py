@@ -2,15 +2,15 @@
 
 A simple function/snippet to read and write basic JSON data.
 
-Version = 0.2.1
-
 """
+
+__version__ = "1.0.0"
 
 
 import json
 
 
-def load_json_data(file_path):
+def readjson(file_path):
     """Loads and returns JSON data from a local file.
 
     Args:
@@ -23,7 +23,7 @@ def load_json_data(file_path):
         return json.load(json_file)
 
 
-def write_json_file(file_path, data) -> None:
+def writejson(file_path, data) -> None:
     """Writes data contents out to file_path .json file.
 
     Args:
