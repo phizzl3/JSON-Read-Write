@@ -4,7 +4,7 @@ A simple function/snippet to read and write basic JSON data.
 
 """
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 
 import json
@@ -31,4 +31,4 @@ def writejson(file_path, data) -> None:
         data: JSON compatible data to write to JSON file.
     """
     with open(file_path, "w", encoding="UTF-8") as json_file:
-        json.dump(data, json_file)
+        json.dump(data, json_file, indent=4)
